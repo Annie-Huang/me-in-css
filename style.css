@@ -48,12 +48,21 @@ body {
   position: relative; /* Need to set position to be relative otherwise the overflow has not effect */
   overflow: hidden; /* hide the overflow eye pupil because pupil is set to be bigger than eye a bit */
 }
-/* eye pupil */
+/* eye pupil - green part */
 .eye::before {
   content: "";
   position: absolute;
   width: 41px;
   height: 41px;
   background-color: hsl(78, 10%, 42%);
+  border-radius: 100%;
+}
+/* eye pupil - black part */
+.eye::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #333;
   border-radius: 100%;
 }
