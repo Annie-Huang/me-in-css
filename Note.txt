@@ -3,3 +3,5 @@ I Drew Myself With CSS (https://www.youtube.com/watch?v=aZXgnJiKGs8&t=55s)
 https://github.com/WebDevSimplified/me-in-css
 https://github.com/Annie-Huang/me-in-css
 ===================================================
+
+C:\react\me-in-css>npm init -y
