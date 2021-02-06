@@ -40,6 +40,10 @@ body {
   /* eyelids */
   border-top: 3px solid hsl(19, 46%, 68%);
   border-bottom: 3px solid hsl(19, 46%, 68%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* eye pupil */
 .eye::before {
@@ -48,4 +52,5 @@ body {
   width: 40px;
   height: 40px;
   background-color: hsl(78, 10%, 42%);
+  border-radius: 100%;
 }
