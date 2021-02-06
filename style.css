@@ -33,4 +33,8 @@ body {
   width: 65px;
   margin: 10px;
   border-radius: 100%;
+
+  /* eyelids */
+  border-top: 3px solid hsl(19, 46%, 68%);
+  border-bottom: 3px solid hsl(19, 46%, 68%);
 }
