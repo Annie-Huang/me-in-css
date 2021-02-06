@@ -25,12 +25,14 @@ body {
   align-items: center;
 }
 
-.eyes {
+.eyes,
+.brows {
   position: absolute;
   width: 195px; /* The space between two eyes is generally the size of one eye */
   display: flex;
   justify-content: space-between;
 }
+
 .eye {
   background: white;
   height: 40px;
@@ -80,4 +82,6 @@ body {
   height: 32px; /* The higher the number, the more rounded it is */
   border-top: 10px solid hsl(27, 33%, 28%); /* the px number decide how thick it is for the eye brow */
   border-radius: 100%;
+
+  margin-bottom: 35px; /* this is to push up the eye brow so it won't hide behide the eye */
 }
