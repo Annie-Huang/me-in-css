@@ -26,12 +26,15 @@ body {
 }
 
 .eyes {
+  position: absolute;
+  width: 195px; /* The space between two eyes is generally the size of one eye */
+  display: flex;
+  justify-content: space-between;
 }
 .eye {
   background: white;
   height: 40px;
   width: 65px;
-  margin: 10px;
   border-radius: 100%;
 
   /* eyelids */
