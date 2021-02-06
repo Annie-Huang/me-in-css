@@ -74,3 +74,10 @@ body {
   margin-left: 15px;
   margin-bottom: 7px;
 }
+
+.brow {
+  width: 65px;
+  height: 32px; /* The higher the number, the more rounded it is */
+  border-top: 10px solid hsl(27, 33%, 28%); /* the px number decide how thick it is for the eye brow */
+  border-radius: 100%;
+}
