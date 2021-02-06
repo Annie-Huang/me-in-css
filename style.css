@@ -44,13 +44,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative; /* Need to set position to be relative otherwise the overflow has not effect */
+  overflow: hidden; /* hide the overflow eye pupil because pupil is set to be bigger than eye a bit */
 }
 /* eye pupil */
 .eye::before {
   content: "";
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   background-color: hsl(78, 10%, 42%);
   border-radius: 100%;
 }
