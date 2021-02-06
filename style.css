@@ -24,3 +24,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.eyes {
+}
+.eye {
+  background: white;
+  height: 40px;
+  width: 65px;
+  margin: 10px;
+  border-radius: 100%;
+}
