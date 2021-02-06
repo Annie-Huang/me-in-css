@@ -41,3 +41,11 @@ body {
   border-top: 3px solid hsl(19, 46%, 68%);
   border-bottom: 3px solid hsl(19, 46%, 68%);
 }
+/* eye pupil */
+.eye::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(78, 10%, 42%);
+}
