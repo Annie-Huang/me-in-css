@@ -124,7 +124,10 @@ body {
 .ear {
   width: 25px;
   height: 70px;
-  background: red;
+
+  border: 2px solid hsl(19, 46%, 68%); /* same as month lid */
+  /* Make it slightly darker than the face skintone color */
+  background: hsl(19, 76%, 85%);
 
   border-radius: 0 100% 100% 0; /* For right ear */
 }
