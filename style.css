@@ -114,6 +114,8 @@ body {
 }
 
 .ears {
+  z-index: -1; /* Put the ear behind the head */
+
   position: absolute;
   width: 340px;
   display: flex;
