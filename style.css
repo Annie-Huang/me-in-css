@@ -112,3 +112,11 @@ body {
   border-top-width: 2px;
   border-bottom-width: 4px;
 }
+
+.ears {
+}
+.ear {
+  width: 25px;
+  height: 70px;
+  background: red;
+}
