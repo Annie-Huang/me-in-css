@@ -153,4 +153,8 @@ body {
   background-color: hsl(27, 33%, 28%);
   height: 100px;
   width: 10px;
+  transform: translateY(100%);
+}
+.hair::after {
+  right: 0;
 }
