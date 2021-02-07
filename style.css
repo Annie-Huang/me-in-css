@@ -106,4 +106,9 @@ body {
   margin-top: 225px;
 
   border-radius: 20% 20% 100% 100%;
+
+  /* month lid */
+  border: 1px solid hsl(19, 46%, 68%);
+  border-top-width: 2px;
+  border-bottom-width: 4px;
 }
