@@ -104,4 +104,6 @@ body {
   height: 40px;
   background: white;
   margin-top: 225px;
+
+  border-radius: 20% 20% 100% 100%;
 }
