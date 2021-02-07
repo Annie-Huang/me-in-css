@@ -145,3 +145,12 @@ body {
 
   border-radius: 50% 100% 0 0;
 }
+/* sideburns */
+.hair::before,
+.hair::after {
+  content: "";
+  position: absolute;
+  background-color: hsl(27, 33%, 28%);
+  height: 100px;
+  width: 10px;
+}
