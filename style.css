@@ -172,4 +172,12 @@ body {
   height: 20px;
   background: orange;
   transform: rotate(45deg);
+
+  top: 115px;
+  left: 5px;
+}
+.hair-corner::after {
+  transform: rotate(-45deg);
+  left: initial;
+  right: 5px;
 }
