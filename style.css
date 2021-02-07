@@ -114,6 +114,10 @@ body {
 }
 
 .ears {
+  position: absolute;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
 }
 .ear {
   width: 25px;
