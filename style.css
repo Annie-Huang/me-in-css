@@ -161,8 +161,6 @@ body {
 .hair-corner {
   position: absolute;
   width: 100%;
-  background: red;
-  height: 100px;
 }
 .hair-corner::before,
 .hair-corner::after {
@@ -170,7 +168,7 @@ body {
   position: absolute;
   width: 14px;
   height: 20px;
-  background: orange;
+  background: hsl(27, 33%, 28%);
   transform: rotate(45deg);
 
   top: 115px;
