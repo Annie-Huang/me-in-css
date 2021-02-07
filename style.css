@@ -158,3 +158,18 @@ body {
 .hair::after {
   right: 0;
 }
+.hair-corner {
+  position: absolute;
+  width: 100%;
+  background: red;
+  height: 100px;
+}
+.hair-corner::before,
+.hair-corner::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 20px;
+  background: orange;
+  transform: rotate(45deg);
+}
