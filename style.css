@@ -142,4 +142,6 @@ body {
   background: hsl(27, 33%, 28%);
 
   margin-bottom: 300px;
+
+  border-radius: 50% 100% 0 0;
 }
